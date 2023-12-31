@@ -12,5 +12,6 @@ class Ship():
         self.rect.bottom = self.screen_rect.bottom
         
     def blitme(self):
+        """Draw the ship at its current location"""
         self.screen.blit(self.image, self.rect)
         
